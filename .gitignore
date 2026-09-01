@@ -35,3 +35,6 @@ terraform.rc
 # OS files
 .DS_Store
 Thumbs.db
+
+terra-key-ec2
+terra-key-ec2.pub
