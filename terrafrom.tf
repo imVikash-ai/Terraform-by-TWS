@@ -10,6 +10,6 @@ terraform {
     key    = "terraform.tfstate"
     region = "us-east-2"
     # dynamodb_table = "tws-junoon-state-table"
-    use_lockfile = true
+    # use_lockfile = true
   }
 }
