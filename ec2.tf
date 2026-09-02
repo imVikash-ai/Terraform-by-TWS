@@ -61,6 +61,7 @@ resource "aws_instance" "my-instance" {
     }
     tags = {
         Name = "my-instance-automate"
+        Environment = var.env
     }
 
   
