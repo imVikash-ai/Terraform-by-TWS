@@ -12,7 +12,7 @@ resource aws_default_vpc default {
 
 resource aws_security_group my_security_group{
     name = "automate-sg"
-    description= "this will add a TF generated security group"
+    description= "This will add a TF generated security group"
     vpc_id = aws_default_vpc.default.id 
 
     tags = {
@@ -44,7 +44,7 @@ resource aws_security_group my_security_group{
     egress {
         from_port = 0
         to_port = 0
-        protocol = "-1"
+        protocol = "-1" 
         cidr_blocks = ["0.0.0.0/0"]
     }
 }

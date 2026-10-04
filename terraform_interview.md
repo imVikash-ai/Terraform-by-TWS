@@ -309,4 +309,4 @@ module "database" {
 | `terraform apply` | Apply changes |
 | `terraform import` | Bring existing resources under Terraform management |
 | `terraform workspace` | Manage workspaces |
-| `terraform state` | Inspect and manipulate state |
+| `terraform state` | Inspect and manipulate state 
