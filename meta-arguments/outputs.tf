@@ -1,5 +1,5 @@
 # output "ec2_public_ip" {
-#   value = aws_instance.my-instance[*].public_ip
+#   value = aws_instance.my-instance[*].public_ip  # (* means all)
   
 # }
 # output "ec2_public_dns" {
