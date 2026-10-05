@@ -57,7 +57,7 @@ resource "aws_instance" "my-instance" {
         instance-medium = "t2.medium"
     })
 
-    depends_on = [aws_security_group.my_security_group]
+    depends_on = [aws_security_group.my_security_group]   
 
     key_name = aws_key_pair.my_key.key_name
     security_groups = [aws_security_group.my_security_group.name]
